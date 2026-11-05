@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private credentials
+.streamlit/secrets.toml
+.env
+
+# Editor and system files
+.vscode/
+.DS_Store
+
+
+
+# Local app backups
+app_backup*.py
